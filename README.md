@@ -9,3 +9,19 @@ Absent
 
 # Versions
 Statistical analyses were conducted in R v4.3.1. All image analysis for Carl Zeiss (.CZI) raw confocal images were imported into ImageJ/FIJI v2.1.0 for further analysis and pre-processing, and data were imported into R v4.3.1 for additional analysis and visualization. For bioinformatic analyses, standard pipelines in R v4.3.1 (via RStudio) were employed, using the following packages: Seurat v4.4.0, HoneyBADGER v0.1, DESeq2 v1.40.2, dittoSeq v1.12.2, UCell v2.4.0, GSVA v1.48.3, ggpubr v0.6.0, sctransform v0.4.1, rstatix v0.7.2, harmony v1.1.0, UpSetR v.1.4.0, and survminer (v0.4.9). The 'get.sig.scores' function to obtain GBM cell state annotations were adapted from LeBlanc et al., Cancer Cell 2022 (https://github.com/vleblanc/GBM-PDE-paper/blob/main/scRNA_seq/funcs_analysis.R). GO analyses were performed via overrepresentation test as implemented in pantherdb.org (PANTHER v18.0). No original software or algorithms were developed in the current study.
+
+|Software|Version|
+|:--|:--:|
+|R | v4.3.1|
+|Seurat | v4.4.0|
+|HoneyBADGER | v0.1| 
+|DESeq2 | v1.40.2|  
+|dittoSeq | v1.12.2|  
+|UCell | v2.4.0|  
+|GSVA | v1.48.3|  
+|ggpubr | v0.6.0|  
+|sctransform | v0.4.1|  
+|rstatix | v0.7.2|  
+|harmony | v1.1.0|  
+|UpSetR | v.1.4.0|  
+|survminer | v0.4.9|
